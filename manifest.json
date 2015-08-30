@@ -1,0 +1,16 @@
+{
+  "name": "BFX",
+  "description" : "Post to Buffer (almost) instantaneously.",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "author": "Lachlan Campbell",
+  "icons": {
+    "128": "icon@128.png",
+    "256": "icon@256.png",
+    "512": "icon@512.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "bfx" }
+}
